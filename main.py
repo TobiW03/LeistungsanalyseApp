@@ -1,3 +1,4 @@
+import json 
 from my_functions import estimate_max_hr, build_person, build_experiment
 #main
 if __name__ == "__main__":
@@ -19,3 +20,8 @@ if __name__ == "__main__":
     subject = str(input('Please enter the name of the subject of the experiment: '))
     #creation of experiment
     experiment1 = build_experiment(experimentname,date,supervisor,subject)
+
+# Convert and write JSON object to file
+with open("sample.json", "a") as outfile: 
+    json.dump(experiment1, outfile)
+    json.dump(person1, outfile)
