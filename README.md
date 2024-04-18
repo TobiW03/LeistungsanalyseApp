@@ -9,3 +9,4 @@ Zum Installieren und Aufsetzen müssen die Dateien runtergeladen werden und in d
 Mittels Ausführen der main.py werden alle erforderlichen Daten abgefragt vom User und die Funktionen des my_functions automatisch ausgeführt. 
 Die Speicherung erfolgt ebenso automatisch durch Ausführen der main.py ganz am Ende.
 
+Update: eigenen Branch erstellt, die gemeinsam gelöste V 6.1 auf 5 zurückgesetzt und eigenen Branch erstellt mit Lösung für 6.1
