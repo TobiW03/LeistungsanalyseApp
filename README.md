@@ -1,7 +1,8 @@
 # LeistungsanalyseApp
 SWE Aufgabe 5 MGST23
 
-## Repository zum Bearbeiten von Aufgabe 5 in SWE mit Carina Tilg
+## Repository zum Bearbeiten von Aufgabe 5 in SWE 
+Gruppe Tobias Wannenmacher und Carina Tilg
 
 ### Installationsanleitung
 
