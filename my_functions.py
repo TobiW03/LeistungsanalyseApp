@@ -26,4 +26,4 @@ def build_experiment(experiment_name, date, supervisor, subject) -> dict:
             "supervisor" :   supervisor,
             "subject" :   subject
             }
-    return dict
+
