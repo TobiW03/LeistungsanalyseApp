@@ -1,1 +1,16 @@
-{"first_name": "Tobias", "last_name": "Wannenmacher", "age": 21, "estimated_max_hr": 204}{"name": "SWEAufgabe6.1", "date": "10.04.2024", "supervisor": "Carina Tilg", "subject": "SWE"}
+{
+    "name": "SWE",
+    "date": "28.04.2024",
+    "supervisor": {
+        "first_name": "Carina",
+        "last_name": "Tilg",
+        "ID": 2020
+    },
+    "subject": {
+        "first_name": "Tobias",
+        "last_name": "Wannenmacher",
+        "_Subject__birthdate": "11.02.2003",
+        "sex": "male",
+        "max_hr": 204
+    }
+}
