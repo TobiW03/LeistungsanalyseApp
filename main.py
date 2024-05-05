@@ -12,7 +12,7 @@ if __name__ == "__main__":
     date = str(input("Enter the current date [dd-mm-yyyy]: ")) # "28-04-2024"
     supervisor_first_name = str(input("Enter the firstname of the supervisor: ")) # "SupervisorFN"
     supervisor_last_name = str(input("Enter the lastname of the supervisor: ")) # "SupervisorLN"
-
+    email = str(input("Enter the email: ")) # "email"
     # calling the class Person
     person1 = my_classes.Person(subject_firstname, subject_lastname)
 
@@ -20,7 +20,7 @@ if __name__ == "__main__":
     supervisor1 = my_classes.Supervisor(supervisor_first_name, supervisor_last_name)
 
     # calling the class Subject
-    subject1 = my_classes.Subject(subject_firstname, subject_lastname, sex, age)
+    subject1 = my_classes.Subject(subject_firstname, subject_lastname, sex, age, email)
     
     # calling the class Experiment
     experiment1 = my_classes.Experiment(experimentname, date, supervisor1.__dict__, subject1.__dict__)
